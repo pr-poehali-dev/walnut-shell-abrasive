@@ -93,8 +93,9 @@ const Index = () => {
             <img 
               src="https://cdn.poehali.dev/projects/98a9d4f9-3a39-4379-a6aa-a8ccd1224508/files/f515752b-9aae-4ec2-85ed-9395f4ace902.jpg"
               alt="ShellTechAbx"
-              className="h-14 w-auto object-contain"
+              className="h-12 w-auto object-contain"
             />
+            <span className="font-heading font-bold text-xl text-primary">ShellTechABX</span>
           </div>
           <nav className="hidden md:flex gap-8">
             <a href="#fractions" className="text-foreground hover:text-primary transition-colors font-medium">Фракции</a>
@@ -109,8 +110,15 @@ const Index = () => {
         </div>
       </header>
 
-      <section className="relative overflow-hidden bg-gradient-to-br from-background via-amber-50/30 to-green-50/30 py-20 md:py-32">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNnoiIHN0cm9rZT0iIzhCNDUxMyIgc3Ryb2tlLXdpZHRoPSIuNSIgb3BhY2l0eT0iLjEiLz48L2c+PC9zdmc+')] opacity-40"></div>
+      <section className="relative overflow-hidden py-20 md:py-32">
+        <div className="absolute inset-0">
+          <img 
+            src="https://cdn.poehali.dev/files/de06809c5d411f0830f8ea32b81b566_1.jpeg"
+            alt="Абразив из скорлупы ореха"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/85 to-background/60"></div>
+        </div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
