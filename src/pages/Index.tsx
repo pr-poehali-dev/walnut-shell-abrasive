@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import Icon from "@/components/ui/icon";
+import FloatingContacts from "@/components/FloatingContacts";
 
 const Index = () => {
   const fractions = [
@@ -87,6 +88,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <FloatingContacts />
       <header className="border-b bg-white/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
@@ -364,14 +366,14 @@ const Index = () => {
                       <Icon name="Phone" size={24} />
                       <div>
                         <p className="text-sm opacity-90">Телефон</p>
-                        <p className="font-semibold text-lg">+7 (999) 123-45-67</p>
+                        <p className="font-semibold text-lg">+7 (920) 295-71-77</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
                       <Icon name="Mail" size={24} />
                       <div>
                         <p className="text-sm opacity-90">Email</p>
-                        <p className="font-semibold text-lg">info@ecoshell.ru</p>
+                        <p className="font-semibold text-lg">shelltechabx@yandex.ru</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
@@ -397,8 +399,9 @@ const Index = () => {
                 <img 
                   src="https://cdn.poehali.dev/projects/98a9d4f9-3a39-4379-a6aa-a8ccd1224508/files/f515752b-9aae-4ec2-85ed-9395f4ace902.jpg"
                   alt="ShellTechAbx"
-                  className="h-16 w-auto object-contain"
+                  className="h-12 w-auto object-contain"
                 />
+                <span className="font-heading font-bold text-xl">ShellTechABX</span>
               </div>
               <p className="text-sm text-white/70 leading-relaxed">
                 Экологичные абразивные материалы для промышленности
