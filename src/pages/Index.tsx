@@ -91,11 +91,10 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
             <img 
-              src="https://cdn.poehali.dev/files/production_images_99dbe4f3-d0a0-43db-99c8-bfd968198fb3 (1) - 1K JPEG.png"
+              src="https://cdn.poehali.dev/projects/98a9d4f9-3a39-4379-a6aa-a8ccd1224508/files/f515752b-9aae-4ec2-85ed-9395f4ace902.jpg"
               alt="ShellTechAbx"
-              className="w-12 h-12 object-contain"
+              className="h-14 w-auto object-contain"
             />
-            <span className="font-heading font-bold text-xl text-primary">ShellTechAbx</span>
           </div>
           <nav className="hidden md:flex gap-8">
             <a href="#fractions" className="text-foreground hover:text-primary transition-colors font-medium">Фракции</a>
@@ -388,11 +387,10 @@ const Index = () => {
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <img 
-                  src="https://cdn.poehali.dev/files/production_images_99dbe4f3-d0a0-43db-99c8-bfd968198fb3 (1) - 1K JPEG.png"
+                  src="https://cdn.poehali.dev/projects/98a9d4f9-3a39-4379-a6aa-a8ccd1224508/files/f515752b-9aae-4ec2-85ed-9395f4ace902.jpg"
                   alt="ShellTechAbx"
-                  className="w-12 h-12 object-contain"
+                  className="h-16 w-auto object-contain"
                 />
-                <span className="font-heading font-bold text-xl">ShellTechAbx</span>
               </div>
               <p className="text-sm text-white/70 leading-relaxed">
                 Экологичные абразивные материалы для промышленности
