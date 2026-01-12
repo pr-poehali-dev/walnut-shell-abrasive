@@ -89,11 +89,13 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="border-b bg-white/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
-              <Icon name="Sparkles" className="text-white" size={24} />
-            </div>
-            <span className="font-heading font-bold text-xl text-primary">EcoShell</span>
+          <div className="flex items-center gap-3">
+            <img 
+              src="https://cdn.poehali.dev/files/production_images_99dbe4f3-d0a0-43db-99c8-bfd968198fb3 (1) - 1K JPEG.png"
+              alt="ShellTechAbx"
+              className="w-12 h-12 object-contain"
+            />
+            <span className="font-heading font-bold text-xl text-primary">ShellTechAbx</span>
           </div>
           <nav className="hidden md:flex gap-8">
             <a href="#fractions" className="text-foreground hover:text-primary transition-colors font-medium">Фракции</a>
@@ -384,11 +386,13 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <div className="flex items-center gap-2 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
-                  <Icon name="Sparkles" className="text-white" size={24} />
-                </div>
-                <span className="font-heading font-bold text-xl">EcoShell</span>
+              <div className="flex items-center gap-3 mb-4">
+                <img 
+                  src="https://cdn.poehali.dev/files/production_images_99dbe4f3-d0a0-43db-99c8-bfd968198fb3 (1) - 1K JPEG.png"
+                  alt="ShellTechAbx"
+                  className="w-12 h-12 object-contain"
+                />
+                <span className="font-heading font-bold text-xl">ShellTechAbx</span>
               </div>
               <p className="text-sm text-white/70 leading-relaxed">
                 Экологичные абразивные материалы для промышленности
@@ -422,7 +426,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-white/10 pt-8 text-center text-sm text-white/50">
-            <p>&copy; 2024 EcoShell. Все права защищены.</p>
+            <p>&copy; 2024 ShellTechAbx. Все права защищены.</p>
           </div>
         </div>
       </footer>
